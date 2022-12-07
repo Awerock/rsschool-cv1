@@ -1,2 +1,2 @@
 # rsschool-cv
-https://awerock.github.io/rsschool-cv/cvgit
+https://awerock.github.io/rsschool-cv/
