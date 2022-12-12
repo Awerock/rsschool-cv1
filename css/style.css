@@ -1,6 +1,6 @@
 header {
     background-color: rgb(230, 230, 230);
-    min-height: 700px;
+    min-height: 600px;
     padding-top: 50px;
 }
 
@@ -42,4 +42,39 @@ h3 {
     color: #aaaaaa;
     text-align: center;
     margin: 0;
+}
+.links {
+    display: flex;
+    Justify-content: center;
+}
+
+.links .location, .links .phone, .links .site, .links .mail {
+    margin: 50px;
+}
+
+h4.bold {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #636363;
+    text-align: center;
+    margin: 0;
+}
+
+h4.regular {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #999999;
+    text-align: center;
+}
+
+.divider {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 1px;
+    background-color: #aaaaaa;
 }
