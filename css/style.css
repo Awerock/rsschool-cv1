@@ -161,11 +161,11 @@ p {
     display: block;
     width: 60px;
     margin-left: 10px;
-    background: url("../img/rs_school_js_1.png") center center/cover no-repeat;
+    background: url("/img/rs_school_js_1.png") center center/cover no-repeat;
 }
 
 .footer_school:hover {
-    background: url("../img/rs_school_js_2.png") center center/cover no-repeat;
+    background: url("/img/rs_school_js_2.png") center center/cover no-repeat;
     transition: 0.2s ease;
 }
 
