@@ -59,6 +59,27 @@
 		</div>
 <!-- 		<div class="divider"></div> -->
 	</main>
+	<section class="code">
+		<div class="code_block">
+			<h4 class="code_title">CODE</h4>
+			<h5 class="code_descr">EXEMPLE</h5>
+				<code class="code_example">
+					image_array = [
+						'1.png',
+						'2.png',
+						]
+						<br><br>
+					function get_random_image(){
+						<br><br>
+					random_index = Math.floor(Math.random() * image_array.length);
+						<br><br>
+					selected_image = image_array[random_index]
+						<br><br>
+					document.getElementById('image_shower').src = `./img/${selected_image}`
+				}
+			</code>
+		</div>
+	</section>
 	<footer>
 		<div class="footer_links">
 			<a href="https://github.com/Awerock" class="footer_github"><i class="fa-brands fa-github"></i></a>

@@ -132,7 +132,7 @@ h4.regular {
     margin: 0 auto;
 }
 
-.about .about_title {
+.about .about_title , h4.code_title {
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: 600;
@@ -141,7 +141,7 @@ h4.regular {
     margin: 0;
 }
 
-.about .about_descr {
+.about .about_descr , h5.code_descr{
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: 300;
@@ -172,6 +172,28 @@ h4.regular {
 
 p {
     margin: 0;
+}
+
+.code {
+    background-color: rgb(248, 248, 248);
+    min-height: 500px;
+    padding-top: 25px;
+}
+.code .code_block {
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.code .code_example {
+    display: block;
+    max-width: 400px;
+    background-color: #d89f23;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
 }
 
 .footer_links {
