@@ -80,7 +80,7 @@ h3 {
     text-align: center;
     margin: 0;
 }
-.links {
+.links , .skills_links {
     display: flex;
     Justify-content: center;
     max-width: 700px;
@@ -89,6 +89,10 @@ h3 {
 }
 
 .links .location, .links .phone, .links .site, .links .mail {
+    margin: 50px 25px;
+}
+
+.skills_educational, .skills_english, .skills_skill, .skills_study {
     margin: 50px 25px;
 }
 
@@ -175,8 +179,14 @@ p {
     margin: 0;
 }
 
-.code {
+.skills {
     background-color: rgb(248, 248, 248);
+    min-height: 150px;
+    padding-top: 25px;
+}
+
+.code {
+    background-color: rgb(240, 240, 240);
     min-height: 300px;
     padding-top: 25px;
 }
@@ -241,11 +251,11 @@ footer {
 }
 
 @media (max-width: 767px) {
-    .links {
+    .links , .skills_links {
         display: block;
     }
-    .short_info {
-        min-height: 831px;
+    .short_info, .skills {
+        padding-bottom: 25px;
     }
 
     .menu li a {
