@@ -12,6 +12,7 @@
 <br>
 I WANTED TO DO GRAPHIC DESIGN ALL THE TIME, SO I CHOSE THE FIELD OF WEBSITE DEVELOPMENT. I AM CURRENTLY STUDYING, BUT I HAVE ALREADY MADE A WEBSITE FOR AN ESPORTS TEAM.*
 <br>
+
 _[YouTube](https://www.youtube.com/channel/UChIJbp0D3EvsWqTStX6G9iQ)_
 _[VK](https://vk.com/airelephant)_
 _[GitHUB](https://github.com/Awerock)_
